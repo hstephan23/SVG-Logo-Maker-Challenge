@@ -1,0 +1,15 @@
+{
+  "name": "svg-logo-maker-challenge",
+  "version": "1.0.0",
+  "description": "I will make a file that is able to quickly generate a simply logo in an SVG file.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "inquirer": "^6.5.0"
+  }
+}
