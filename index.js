@@ -5,14 +5,17 @@ function createSVG(logoName, logoNameColor, logoShape, logoShapeColor) {
     if (logoShape === "Circle") {
 return `<svg width="100" height="100" xmlns="http://www.w3.org/2000/svg">
     <circle cx="50" cy="50" r="40" fill="${logoShapeColor}" />
+    <text x="50" y="50" text-anchor="middle" dy=".3em" fill="${logoNameColor}">${logoName}</text>
 </svg>`
     } else if (logoShape === "Triangle") {
 return `<svg width="100" height="100" xmlns="http://www.w3.org/2000/svg">
     <polygon points="50,10 90,90 10,90" fill="${logoShapeColor}" />
+    <text x="50" y="50" text-anchor="middle" dy=".3em" fill="${logoNameColor}">${logoName}</text>
 </svg>`
     } else if (logoShape === "Square") {
 return `<svg width="100" height="100" xmlns="http://www.w3.org/2000/svg">
     <rect width="50" height="50" fill="${logoShapeColor}" />
+    <text x="50" y="50" text-anchor="middle" dy=".3em" fill="${logoNameColor}">${logoName}</text>
 </svg>`
     }
 }
