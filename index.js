@@ -1,9 +1,9 @@
-const shape = require("./lib/shape");
+const { LogoGenerator } = require("./lib/shape");
 
 (async () => {
-    const userInput = await shape.promptUser();
+    const userInput = await LogoGenerator.promptUser();
 
-    const logoGenerated = new shape (
+    const logoGenerated = new LogoGenerator (
         userInput.name,
         userInput.nameColor,
         userInput.shape,
