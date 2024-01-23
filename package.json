@@ -4,12 +4,13 @@
   "description": "I will make a file that is able to quickly generate a simply logo in an SVG file.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "inquirer": "^6.5.0"
+    "inquirer": "^6.5.0",
+    "jest": "^28.0.0"
   }
 }
