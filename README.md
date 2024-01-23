@@ -25,6 +25,8 @@
   ## Usage
   For the generation of an SVG file. I downloaded the extension SVG-Viewer in VSCode to view the SVG image in VSCode instead of having to open it in a browser and worry about the format. 
 
+  The video of usage is [here](https://drive.google.com/file/d/1kLdJqWobZ9APpfKIDyS62pF1W97wg7Eu/view?usp=share_link).
+
   MIT
 
   https://opensource.org/license/mit/
